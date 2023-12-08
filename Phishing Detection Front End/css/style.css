@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Space+Mono:wght@700&family=Ubuntu+Mono&family=Ubuntu:wght@500&display=swap');
+h1,input, body{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:'Space Mono', monospace;
+    height: 100vh;
+    background-color: #edf7fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    padding: 95px 350px;
+    background-color: #edf7fcc8
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    border: 3px solid #50b8e7;
+    border-radius: 25px;
+}
+
+h1{
+    padding-bottom: 30px;
+    font-size: 64px;
+    color: #50b8e7;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+}
+
+input{
+    height: 50px;
+    width: 600px;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #50b8e7;
+    border-radius: 25px;
+    box-shadow: 2px 2px #84cceea1;
+    font-size: 20px;
+}
+
+.fa-solid:hover{
+    scale: 0.9;
+}
+
+.warning{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    height: 280px;
+    width: 600px;
+    background-color: #ffc2c2;
+    border: 5px solid #ff8383;
+    border-radius: 25px;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+h2{
+    margin-top: 0;
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+p{
+    margin: 0 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.continue-btn{
+    margin-top: 30px;
+    padding: 4px 10px;
+    background-color: red;
+    border-radius: 25px;
+}
+
+.continue-btn:hover{
+    scale: 0.95;
+}
+
